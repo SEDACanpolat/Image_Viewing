@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_500">
+    <ImageView
+    android:id="@+id/görsel4"
+    android:layout_width="340dp"
+    android:layout_height="210dp"
+    android:layout_alignParentEnd="true"
+    android:layout_marginEnd="31dp" />
+    <EditText
+    android:id="@+id/girdi6"
+    android:layout_width="200dp"
+    android:layout_height="50dp"
+    android:layout_marginStart="115dp"
+    android:layout_marginLeft="150dp"
+    android:layout_marginTop="271dp"
+    android:layout_marginEnd="115dp"
+    android:layout_marginBottom="160dp"
+    android:hint="Ad giriniz"
+    android:textStyle="bold"
+    android:inputType="text" />
+
+    <Button
+    android:id="@+id/button8"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/görsel4"
+    android:layout_marginStart="115dp"
+    android:layout_marginLeft="150dp"
+    android:layout_marginTop="333dp"
+    android:layout_marginEnd="115dp"
+    android:layout_marginBottom="160dp"
+    android:text="GÖSTER"
+    android:textStyle="bold"></Button>
+
+</RelativeLayout>
+
